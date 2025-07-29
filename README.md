@@ -1,3 +1,4 @@
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 # 🧺 Falling Object Catcher Game
 
 This is a fun and simple **p5.js + p5.play** arcade game where you catch falling objects using a basket. Earn points by catching them — and don’t let too many fall, or you lose!
