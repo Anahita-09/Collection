@@ -1,38 +1,22 @@
 [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 # 🧺 Falling Object Catcher Game
 
-This is a fun and simple **p5.js + p5.play** arcade game where you catch falling objects using a basket. Earn points by catching them — and don’t let too many fall, or you lose!
+This project is a fun and simple p5.js + p5.play arcade style game where the user has to catch falling objects using a basket. And earn points by catching them and not letting too many fall, or else they lose!
 
 ---
 
 ## 🎮 How to Play
 
-* Use the **left ⬅️** and **right ➡️** arrow keys to move the basket.
-* Catch the falling objects (colored circles) to gain points.
-* Each catch gives you **+1 point**, missing one costs **-1 point**.
-* Reach **15 points to win** or fall to **-5 points to lose**.
+* You should use the left ⬅️ and right ➡️ arrow keys to move the basket.
+* Catch the falling objects to gain points.
+* Each catch will give you +1 point and missing one will subtract -1 point.
+* You have to reach 15 points to win or fall to -5 points to lose.
 
 ---
 
 ## 🌟 Features
 
-* Custom background and basket image
-* Two randomly colored falling objects with varied speeds
-* Real-time collision detection with score tracking
-* Game over and win states with messages
-
----
-
-## 📁 File Structure
-
-```
-catcher-game/
-├── assets/
-│   ├── bg.png           # Background image
-│   └── basket.png       # Basket image
-├── acript.js            # Main game code
-├── README.md            # This file
-```
+There is a custom background and also a basket as a catcher. Random colored falling circles that have different speeds and a collision detector which supports the score tracking to increase and decrease points.
 
 ---
 
@@ -43,18 +27,6 @@ catcher-game/
 
 ---
 
-## 🚀 Getting Started
+## 🧠 What I Learned
 
-1. Open the project in the [p5.js Web Editor](https://editor.p5js.org/).
-2. Add the `p5.play` library through the **Settings > Libraries** panel.
-3. Upload your background and basket images under the `assets` folder.
-4. Hit **Play ▶** and start catching!
-
----
-
-## 🧠 Concepts Learned
-
-* Object movement and keyboard input
-* Sprite collision and score handling
-* Game state transitions (win/lose)
-* Image preloading and background rendering
+How to move an object using arrow keys, how to increase or decrease points by detecting sprite collision. Win/loose statements and also how to add images to objects and backgrounds.
